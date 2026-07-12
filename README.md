@@ -1,112 +1,52 @@
-# Music_streaming_habits
-Analyze music streaming habits with Python, MySQL, Tableau, and interactive data visualizations.
 # 🎵 Music Streaming Habits Analysis
 
-An end-to-end Data Analytics project that analyzes music streaming habits using **Python, Excel, MySQL, and Tableau**. This project demonstrates the complete analytics workflow, including data cleaning, exploratory data analysis (EDA), SQL analysis, and interactive dashboard creation.
+<p align="center">
+  <img src="Images/banner.png" alt="Music Streaming Habits Analysis Banner" width="100%">
+</p>
 
----
+## 📌 Overview
 
-## 📌 Project Overview
+This project analyzes music streaming habits using multiple data analytics tools to uncover user behavior, listening patterns, subscription trends, and business insights.
 
-The objective of this project is to analyze music streaming data to understand user listening behavior, identify trends, and generate actionable business insights.
+## 🛠️ Tools Used
 
-The project covers:
-- Data Cleaning & Preprocessing
-- Exploratory Data Analysis (EDA)
-- SQL-based Data Analysis
-- Interactive Tableau Dashboard
-- Business Insight Generation
-
----
-
-## 🛠️ Tech Stack
-
+- 📊 Excel
 - 🐍 Python
-- 📊 Pandas
-- 🔢 NumPy
-- 📑 Excel
-- 🗄️ MySQL
+- 🗄️ SQL
 - 📈 Tableau
-- 📓 Jupyter Notebook
-
----
 
 ## 📂 Project Structure
 
-```text
-Music-Streaming-Habits/
+```
+Music-Streaming-Habits-Analysis/
 │
-├── python/
-│   ├── Music_Streaming_Habits.ipynb
-│   ├── data_cleaning.py
-│   └── feature_engineering.py
-│
-├── data/
-│   ├── music_streaming.csv
-│   └── music_streaming.xlsx
-│
-├── sql/
-│   ├── database.sql
-│   └── queries.sql
-│
-├── tableau/
-│   ├── Music_Streaming_Dashboard.twb
-│   ├── Music_Streaming_Dashboard.twbx
-│   └── dashboard.png
-│
-├── screenshots/
-│   ├── python_output.png
-│   ├── mysql_output.png
-│   └── tableau_dashboard.png
-│
-├── README.md
-└── requirements.txt
+├── Excel/
+├── Python/
+├── SQL/
+├── Tableau/
+├── Dataset/
+├── Images/
+└── README.md
 ```
 
----
+## 🔗 Project Links
 
-## 📊 Key Analysis
-
-- Total Streams Analysis
-- Genre-wise Listening Trends
-- Platform-wise Usage
-- Subscription Type Analysis
-- Age Group Analysis
-- Listening Time Distribution
-- User Behavior Analysis
-- Regional Listening Trends
-
----
-
-## 📈 Dashboard Features
-
-- KPI Cards
-- Genre Distribution
-- Platform Analysis
-- Subscription Analysis
-- Listening Time Trends
-- Interactive Filters
-
----
-
-## 🎯 Project Objectives
-
-- Analyze user music streaming behavior.
-- Identify the most popular genres and platforms.
-- Understand subscription patterns.
-- Create an interactive dashboard for better decision-making.
-
----
+- 📊 **Excel Analysis:** [Excel](./Excel)
+- 🐍 **Python Analysis:** [Python](./Python)
+- 🗄️ **SQL Analysis:** [SQL](./SQL)
+- 📈 **Tableau Dashboard:** [Tableau](./Tableau)
 
 ## 📷 Dashboard Preview
 
-> Add your Tableau dashboard screenshot here after completing the project.
+![Dashboard](Images/dashboard.png)
+
+## 🚀 Skills
+
+`Excel` `Python` `SQL` `Tableau` `Data Cleaning` `EDA` `Data Visualization` `Dashboard` `Business Insights`
 
 ---
 
-## 👨‍💻 Author
-
-**Saurabh Sen**
+### ⭐ If you like this project, don't forget to star the repository!
 
 - GitHub: https://github.com/agenticanalyst
 - LinkedIn: https://www.linkedin.com/in/saurabh-sen-a25768330
