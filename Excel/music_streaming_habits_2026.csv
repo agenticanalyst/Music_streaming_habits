@@ -1,0 +1,35 @@
+platform,Count of listener_id,,,subscription,Count of listener_id,,,top_genre,Count of listener_id,,,country,Count of listener_id
+Amazon Music,315,,,Family,586,,,Afrobeats,210,,,Australia,397
+Apple Music,906,,,Free,1820,,,Classical,166,,,Brazil,409
+SoundCloud,278,,,Premium,1193,,,Country,165,,,Canada,429
+Spotify,1591,,,Student,401,,,EDM,382,,,France,377
+Tidal,221,,,Grand Total,4000,,,Hip-Hop,605,,,Germany,371
+YouTube Music,689,,,,,,,Indie,327,,,India,390
+Grand Total,4000,,,,,,,Jazz,132,,,Japan,439
+,,,,,,,,K-Pop,278,,,Nigeria,401
+,,,,,,,,Lo-fi,201,,,UK,369
+,,,,,,,,Pop,721,,,USA,418
+,,,,,,,,R&B,341,,,Grand Total,4000
+,,,,,,,,Rock,472,,,,
+,,,,,,,,Grand Total,4000,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+top_mood,Count of listener_id,,,uses_offline_mode,Count of listener_id,,,podcasts_too,Count of listener_id,,,,
+Chill,529,,,FALSE,2290,,,FALSE,2128,,,,
+Energetic,492,,,TRUE,1710,,,TRUE,1872,,,,
+Focus,474,,,Grand Total,4000,,,Grand Total,4000,,,,
+Happy,515,,,,,,,,,,,,
+Party,476,,,,,,,,,,,,
+Sad,538,,,,,,,,,,,,
+Sleep,477,,,,,,,,,,,,
+Workout,499,,,,,,,,,,,,
+Grand Total,4000,,,,,,,,,,,,
