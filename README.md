@@ -32,7 +32,7 @@ Music-Streaming-Habits-Analysis/
 ## 🔗 Project Links
 
 - 📊 **Excel Analysis:** [Excel](https://github.com/agenticanalyst/Music_streaming_habits/blob/main/Python/Music_streaming_habits.ipynb)
-- 🐍 **Python Analysis:** [Python](./Python)
+- 🐍 **Python Analysis:** [Python](https://github.com/agenticanalyst/Music_streaming_habits/blob/main/Excel/Data%20cleaning.md)
 - 🗄️ **SQL Analysis:** [SQL](./SQL)
 - 📈 **Tableau Dashboard:** [Tableau](./Tableau)
 
