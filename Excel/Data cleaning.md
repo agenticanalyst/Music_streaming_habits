@@ -25,10 +25,11 @@ This project analyzes music streaming habits using **Microsoft Excel**. The data
 - User engagement varies across countries.
 
 ## 📷 Dashboard Preview
-
-![Dashboard](Images/dashboard.png)
+![main](https://github.com/agenticanalyst/Music_streaming_habits/blob/main/Excel/Screenshot%202026-07-13%20021731.png)
+![cleane](https://github.com/agenticanalyst/Music_streaming_habits/blob/main/Excel/Screenshot%202026-07-13%20021715.png)
+![Dashboard](https://github.com/agenticanalyst/Music_streaming_habits/blob/main/Excel/Screenshot%202026-07-13%20020622.png)
 
 ## 📂 Project Files
-- `music_streaming_habits_2026.csv`
-- `Music_Streaming_Analysis.xlsx`
-- `README.md`
+- https://github.com/agenticanalyst/Music_streaming_habits/blob/main/Excel/music_streaming_habits_2026.cleaned.csv
+- https://github.com/agenticanalyst/Music_streaming_habits/blob/main/Excel/music_streaming_habits_2026.csv
+- https://github.com/agenticanalyst/Music_streaming_habits/blob/main/Excel/Data%20cleaning.md
