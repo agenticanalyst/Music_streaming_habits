@@ -1,4 +1,5 @@
 # 🎵 Music Streaming Habits Analysis (Excel)
+![Dashboard](https://github.com/agenticanalyst/Music_streaming_habits/blob/main/Excel/Screenshot%202026-07-13%20020622.png)
 
 ## 📌 Overview
 This project analyzes music streaming habits using **Microsoft Excel**. The dataset was explored to identify user listening behavior, subscription trends, genre preferences, and platform usage through interactive visualizations and dashboards.
