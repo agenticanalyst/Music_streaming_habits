@@ -157,20 +157,28 @@ GROUP BY top_artist
 ORDER BY Fans DESC
 LIMIT 10;
 ---
----
+```
 
-## 9. Songs Per Day Analysis
-
+#9. Songs Per Day Analysis
 ```sql
+-- 9. Songs Per Day
+
+SELECT ROUND(AVG(skip_rate_pct),2) AS Avg_Skip_Rate
+FROM music_streaming;
 
 
----
----
+```
 
 ## 10. Skip Rate Analysis
 
 ```sql
--- Paste Query Here
+--12. Average Skip Rate by Platform
+SELECT platform,
+       ROUND(AVG(skip_rate_pct),2) AS Avg_Skip_Rate
+FROM music_streaming
+GROUP BY platform
+ORDER BY Avg_Skip_Rate DESC;
+
 ```
 
 ---
@@ -178,7 +186,14 @@ LIMIT 10;
 ## 11. Average Listening by Subscription
 
 ```sql
--- Paste Query Here
+--12. Average Skip Rate by Platform
+SELECT platform,
+       ROUND(AVG(skip_rate_pct),2) AS Avg_Skip_Rate
+FROM music_streaming
+GROUP BY platform
+ORDER BY Avg_Skip_Rate DESC;
+
+
 ```
 
 ---
@@ -186,7 +201,12 @@ LIMIT 10;
 ## 12. Skip Rate by Platform
 
 ```sql
--- Paste Query Here
+--12. Average Skip Rate by Platform
+SELECT platform,
+       ROUND(AVG(skip_rate_pct),2) AS Avg_Skip_Rate
+FROM music_streaming
+GROUP BY platform
+ORDER BY Avg_Skip_Rate DESC;
 ```
 
 ---
@@ -194,7 +214,13 @@ LIMIT 10;
 ## 13. Mood Distribution
 
 ```sql
--- Paste Query Here
+- 15. Mood Distribution
+SELECT top_mood,
+       COUNT(*) AS Total_Users
+FROM music_streaming
+GROUP BY top_mood
+ORDER BY Total_Users DESC;
+
 ```
 
 ---
@@ -202,10 +228,80 @@ LIMIT 10;
 ## 14. Offline Mode Usage
 
 ```sql
--- Paste Query Here
+--16. Offline Mode Usage
+SELECT uses_offline_mode,
+       COUNT(*) AS Users
+FROM music_streaming
+GROUP BY uses_offline_mode;
 ```
 
 ---
+
+## 15. TOP 5 Country distribution
+```sql
+SELECT
+    country,
+    COUNT(user_id) AS total_users
+FROM users
+GROUP BY country
+ORDER BY total_users DESC
+LIMIT 5;
+
+```
+# 16 Average Songs Per Day by Genre
+```sql
+Average Songs Per Day by Genre
+SELECT top_genre,
+       ROUND(AVG(songs_per_day),2) AS Avg_Songs
+FROM music_streaming
+GROUP BY top_genre
+ORDER BY Avg_Songs DESC;
+
+
+```
+
+# 17 Offline Mode Usage
+```sql
+--16. Offline Mode Usage
+SELECT uses_offline_mode,
+       COUNT(*) AS Users
+FROM music_streaming
+GROUP BY uses_offline_mode;
+
+```
+
+# 18   Discover Weekly Users
+```sql
+-17. Discover Weekly Users
+SELECT discover_weekly_user,
+       COUNT(*) AS Users
+FROM music_streaming
+GROUP BY discover_weekly_user;
+
+```
+
+
+# 19  Top 10 Playlist Creators
+``` sql
+-19. Top 10 Playlist Creators
+SELECT listener_id,
+       playlists_count
+FROM music_streaming
+ORDER BY playlists_count DESC
+LIMIT 10;
+
+```
+# 20 Age-wise Average Listening Time
+```sql
+--20. Age-wise Average Listening Time
+SELECT age,
+       ROUND(AVG(daily_listening_minutes),2) AS Avg_Listening
+FROM music_streaming
+GROUP BY age
+ORDER BY age;
+
+```
+
 
 ## 📈 Key Insights
 
