@@ -45,6 +45,19 @@ Music-Streaming-Habits-Analysis/
 `Excel` `Python` `SQL` `Tableau` `Data Cleaning` `EDA` `Data Visualization` `Dashboard` `Business Insights`
 
 ---
+## Project Achievements
+
+* Designed and developed a complete Music Streaming Analytics dashboard using Python, SQL, and Power BI.
+* Processed and analyzed thousands of music streaming records to uncover user listening behavior and engagement patterns.
+* Built interactive dashboards with KPIs such as Total Users, Total Streams, Listening Time, Skip Rate, and Podcast Usage.
+* Performed SQL-based data analysis using filtering, aggregation, grouping, joins, and ranking queries.
+* Identified the Top 5 Countries, Top Artists, Mood Distribution, Daily Listening Trends, and Offline Mode Usage.
+* Improved data visualization by creating clear and interactive charts for faster business insights.
+* Strengthened practical skills in data cleaning, exploratory data analysis (EDA), SQL querying, and dashboard development.
+* Demonstrated the ability to transform raw data into actionable insights for business decision-making.
+
+
+
 
 ### ⭐ If you like this project, don't forget to star the repository!
 
