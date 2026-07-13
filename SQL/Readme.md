@@ -1,6 +1,7 @@
 # 🎵 Music Streaming Habits Analysis (SQL Project)
 
 ## 📌 Project Overview
+![w](https://github.com/agenticanalyst/Music_streaming_habits/blob/main/SQL/ChatGPT%20Image%20Jul%2013%2C%202026%2C%2005_17_37%20PM.png)
 
 This project analyzes user listening behavior using SQL. The analysis focuses on music streaming patterns, user engagement, subscription trends, platform usage, listening habits, and artist preferences.
 
@@ -39,7 +40,7 @@ Music_Streaming_Habits_Analysis
 
 > Add your schema image below.
 
-![Database Schema](schema/music_streaming_schema.png)
+![Database Schema](https://github.com/agenticanalyst/Music_streaming_habits/blob/main/SQL/QuickDBD-Music%20straming%20habits%20(6).png)
 
 ---
 
@@ -48,7 +49,15 @@ Music_Streaming_Habits_Analysis
 ## 1. Total Records
 
 ```sql
--- Paste Query Here
+-- Total Records
+
+DESCRIBE music_streaming;
+SELECT COUNT(*) AS Total_Records
+FROM music_streaming;
+
+SELECT COUNT(DISTINCT user_id) AS Total_Users
+FROM music_streaming;
+
 ```
 
 ---
@@ -56,7 +65,12 @@ Music_Streaming_Habits_Analysis
 ## 2. Total Listeners
 
 ```sql
--- Paste Query Here
+-- 2. Total Listeners
+
+SELECT COUNT(DISTINCT listener_id) AS Total_Listeners
+FROM music_streaming;
+DESCRIBE music_streaming;
+
 ```
 
 ---
@@ -64,7 +78,11 @@ Music_Streaming_Habits_Analysis
 ## 3. Average Listening Minutes
 
 ```sql
--- Paste Query Here
+--3. Average Listening Minutes
+
+SELECT ROUND(AVG(daily_listening_minutes),2) AS Avg_Listening_Minutes
+FROM music_streaming;
+
 ```
 
 ---
@@ -72,7 +90,15 @@ Music_Streaming_Habits_Analysis
 ## 4. Top Countries
 
 ```sql
--- Paste Query Here
+--4. Top 10 Countries
+
+SELECT country,
+COUNT(*) AS Total_Users
+FROM music_streaming
+GROUP BY country
+ORDER BY Total_Users DESC
+LIMIT 10;
+
 ```
 
 ---
@@ -80,7 +106,14 @@ Music_Streaming_Habits_Analysis
 ## 5. Platform Usage
 
 ```sql
--- Paste Query Here
+--5. Platform Usage
+
+SELECT platform
+COUNT(*) AS Users
+FROM music_streaming
+GROUP BY platform
+ORDER BY Users DESC;
+
 ```
 
 ---
@@ -88,7 +121,14 @@ Music_Streaming_Habits_Analysis
 ## 6. Subscription Distribution
 
 ```sql
--- Paste Query Here
+--6. Subscription Distribution
+
+SELECT subscription,
+COUNT(*) AS Users
+FROM music_streaming
+GROUP BY subscription;
+
+
 ```
 
 ---
@@ -96,25 +136,35 @@ Music_Streaming_Habits_Analysis
 ## 7. Top Genres
 
 ```sql
--- Paste Query Here
+-- 7. Top Genres
+SELECT top_genre,
+COUNT(*) AS Users
+FROM music_streaming
+GROUP BY top_genre
+ORDER BY Users DESC
+LIMIT 10;
 ```
-
 ---
 
 ## 8. Top Artists
 
 ```sql
--- Paste Query Here
-```
-
+-- 8. Top Artists
+SELECT top_artist,
+COUNT(*) AS Fans
+FROM music_streaming
+GROUP BY top_artist
+ORDER BY Fans DESC
+LIMIT 10;
+---
 ---
 
 ## 9. Songs Per Day Analysis
 
 ```sql
--- Paste Query Here
-```
 
+
+---
 ---
 
 ## 10. Skip Rate Analysis
