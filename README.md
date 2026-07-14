@@ -1,7 +1,7 @@
 # 🎵 Music Streaming Habits Analysis
 
 <p align="center">
-  <img src="https://github.com/agenticanalyst/Music_streaming_habits/blob/main/Python/Download%20music%20vector%20trendy%20banner%20for%20free.jpg" alt="Music Streaming Habits Analysis Banner" width="100%">
+  <img src="https://github.com/agenticanalyst/Music_streaming_habits/blob/main/Python/ChatGPT%20Image%20Jul%2014%2C%202026%2C%2001_17_45%20PM.png" alt="Music Streaming Habits Analysis Banner" width="100%">
 </p>
 
 ## 📌 Overview
