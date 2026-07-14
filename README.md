@@ -38,7 +38,7 @@ Music-Streaming-Habits-Analysis/
 
 ## 📷 Dashboard Preview
 
-![Dashboard](Images/dashboard.png)
+![Dashboard](https://github.com/agenticanalyst/Music_streaming_habits/blob/main/Tableau/Screenshot%202026-07-14%20124659.png)
 
 ## 🚀 Skills
 
